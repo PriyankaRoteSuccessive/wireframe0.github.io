@@ -6,6 +6,9 @@
 .wrapper{
     max-width: 100%;
 }
+body{
+    font-family: 'Roboto', sans-serif;
+}
 /*section 1 banner*/
 .banner{
     background-image: url(./image/slider1.jpg);
@@ -129,7 +132,7 @@ h1{
     font-weight: bold;
 }
 h5{
-    font-size: 34px;
+    font-size: 30px;
     font-weight: lighter;
 }
 h3 span{
@@ -137,20 +140,22 @@ h3 span{
 }
 .butt{
     padding:50px;
+   
 }
 .button1{
     width: 200px;
     height: 60px;
     background-color:#18CFAB;
-    border-top-style: solid;
-    border-color:#FFFFFF ;
+    border-top: 6px solid white;
+    color:#FFFFFF ;
+    
 }
 .button2{
     width: 200px;
     height: 60px;
     background-color:#00CBF6;
-    border-top-style: solid;
-    border-color:#FFFFFF ;
+    border-top: 6px solid white;
+    color:#FFFFFF ;
 }
 
 /*section 2 block */
@@ -630,11 +635,45 @@ li {
     height: 400px;
     width: 500px;
     background-color: #1c2a33;
-    border-top: 8px solid #19ceab;
+    border-top: 8px solid #18ceab;
 }
 .box:nth-child(even) {
     background: #18ceab;
     border-top: 8px solid #1c2a33;
+}
+
+ .circle{
+    
+        border: 2px solid #18ceab;
+        border-radius: 50%;
+        width: 165px;
+        height: 165px;
+        margin: 45px auto 0;
+      
+} 
+ .circle1{
+    
+    border: 2px solid #1c2a33;;
+    border-radius: 50%;
+    width: 165px;
+    height: 165px;
+    margin: 45px auto 0;
+  
+} 
+.box i{
+    color: #fff;
+    font-size: 70px;
+    background-color: #18ceab;
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    border-radius: 50%;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.box .circle1 i{
+        background-color:#1c2a33;
 }
 
 #num1 {
@@ -672,28 +711,7 @@ li {
     font-size: 18px;
     font-weight: lighter;
 }
-.box:nth-child(even) {
-    background: #18ceab;
-    border-top: 8px solid #1c2a33;
-}
-i.fa.fa-circle{
-    color: #18ceab;
-    font-size: 160px;
-    margin-top: 39px;
-    margin-left: 111px;
-    padding: 6px;
-    border: 3px solid #18ceab;
-    border-radius: 250px;
-}
-i.fa.fa-briefcase,i.fa.fa-shopping-cart,i.material-icons,i.fa.fa-user {
-    font-size: 80px;
-    color: #ffffff;
-    margin-left: -121px;
-    
-}
-i.fa.fa-user{
-    margin-left: -109px;
-}
+
 /* section 9 OUR PRICE TABLE*/
 .section9 {
     height: 850px;
